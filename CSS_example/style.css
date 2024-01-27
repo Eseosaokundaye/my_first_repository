@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+  }
+  h2 {color: brown;}
+  .red {color: red;} 
+  .blue{color: blue;}
+  .green{color: green;}
+  .big{font-size: medium;}
+  .tiny{font-size: medium;}
+  .center{text-align: center;}
+  .bold{font-weight: bolder;}
+  .font{font-style: italic;}
+  .styledFont{font-style: italic;color: blueviolet;font-size: larger;}
+  .muti{color:orangered;font-size: xx-large;font-style: italic;}
+  #styledImage{border: 10px solid #409e14;
+    border-radius: 15px;
+    padding: 5px;
+    width: 150px;display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;}
