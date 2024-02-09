@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us form</title>
+    <style>body {
+        font-size: medium;
+        line-height: 0.2in;
+        max-width: 38em;
+        margin: auto;
+        color: #4a4a4a;
+        background-color: #f9f9f9;padding: 30px;
+        border-color: brown;border-style: groove;
+      }
+        .container{background-color: cadetblue; width: 600px;margin: 0 auto;}
+        #Name-area{font-size:medium;width: 150px;color: blue;}
+        #Address-area{font-size: medium; width: 150px;color: aqua;}
+        .h-captcha{float:left;font-size: medium;font-size: larger;color: blue;}
+
+    </style>
+</head>
+<body>
+    <form action="https://api.web3forms.com/submit" method="POST">
+    <div class="container">
+        <section id="Name-area">
+         <input type="hidden" name="access_key" value="1c6f259d-ddcd-4fb5-a3bc-fd66e441bba5">
+         <strong>FIRST NAME:</strong><input type="text"first name="name" required><br><br>
+         <strong>LAST NAME:</strong><input type="text"last name="name" required><br><br>
+        </section>
+    
+        <section id="Address-area">
+         <strong>EMAIL:</strong><input type="email"name="email" required><br><br>
+         <strong>ADDRESS:</strong><input type="address"name="address" required><br><br>
+         <strong>MESSAGE:</strong><textarea name="message"></textarea><br><br>
+        </section>
+        <div class="h-captcha" data-captcha="true"><br><br>
+        <button style="color: crimson;font-size: medium;font-weight: bolder;" type="submit">Submit Form</button></div>
+        
+    </form>
+        
+    
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+    
+</body>
